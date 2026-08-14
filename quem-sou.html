@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Conheça Gabriel Kosta, profissional de CRM, marketing, desenvolvimento front-end e web design." />
+    <meta name="theme-color" content="#090909" />
+    <link rel="icon" type="image/png" href="LOGO_MINHA_FUNDO_TRANSPARENTE.png" />
+    <link rel="apple-touch-icon" href="LOGO_MINHA_FUNDO_TRANSPARENTE.png" />
+    <title>Quem sou — Gabriel Kosta</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient--one" aria-hidden="true"></div>
+    <div class="ambient ambient--two" aria-hidden="true"></div>
+
+    <main class="page-shell about-page">
+      <nav class="topbar" aria-label="Ações da página">
+        <a class="brand" href="index.html" aria-label="Voltar para a página de links">
+          <img src="LOGO_MINHA.png" alt="" />
+        </a>
+        <div class="topbar__actions">
+          <a class="back-button" href="index.html"><span aria-hidden="true">←</span> Voltar</a>
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">
+            <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z" /></svg>
+            <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+          </button>
+          <button class="icon-button" id="share-button" type="button" aria-label="Compartilhar página" title="Compartilhar">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"/></svg>
+          </button>
+        </div>
+      </nav>
+
+      <header class="about-hero">
+        <div class="about-hero__visual">
+          <img class="about-hero__photo" src="EU.jpg" alt="Retrato de Gabriel Kosta em ambiente urbano noturno" />
+          <img class="about-hero__logo" src="LOGO_MINHA.png" alt="" aria-hidden="true" />
+          <span class="about-hero__stamp">PROFILE / 01</span>
+        </div>
+        <div class="about-hero__copy">
+          <p class="eyebrow">QUEM SOU / SOBRE MIM</p>
+          <h1>Gabriel<br />Kosta</h1>
+          <p class="about-lead">CRM, marketing e tecnologia conectados para criar experiências que geram resultado.</p>
+        </div>
+      </header>
+
+      <section class="about-intro" aria-labelledby="minha-historia">
+        <div class="section-index">01 / TRAJETÓRIA</div>
+        <div class="about-intro__content">
+          <h2 id="minha-historia">Estratégia com visão de produto e execução digital.</h2>
+          <p>Sou <strong>Gabriel Kosta</strong>, profissional com mais de três anos de conhecimento e atuação em CRM e marketing. Atualmente, trabalho como <strong>Analista de CRM Pleno</strong>, transformando dados, comportamento e estratégia em comunicações mais relevantes e relacionamentos mais sólidos com clientes.</p>
+          <p>Minha trajetória também passa pela tecnologia: acumulo mais de um ano e meio de experiência em <strong>desenvolvimento front-end e web design</strong>. Essa combinação me permite enxergar cada projeto de ponta a ponta — da estratégia e jornada do usuário à interface que ganha vida na tela.</p>
+        </div>
+      </section>
+
+      <section class="experience-grid" aria-label="Resumo da experiência profissional">
+        <article class="experience-card experience-card--dark">
+          <span class="experience-card__number">+3</span>
+          <h2>anos</h2>
+          <p>de conhecimento e atuação em CRM e marketing.</p>
+        </article>
+        <article class="experience-card">
+          <span class="experience-card__number">PL</span>
+          <h2>CRM Pleno</h2>
+          <p>posição atual, conectando estratégia, dados e relacionamento.</p>
+        </article>
+        <article class="experience-card">
+          <span class="experience-card__number">+1,5</span>
+          <h2>anos</h2>
+          <p>de experiência em front-end e criação de experiências para a web.</p>
+        </article>
+      </section>
+
+      <section class="skills-section" aria-labelledby="especialidades">
+        <div class="section-index">02 / ESPECIALIDADES</div>
+        <div class="skills-content">
+          <h2 id="especialidades">Onde estratégia e criatividade se encontram.</h2>
+          <ul class="skill-list">
+            <li><span>01</span> CRM & relacionamento</li>
+            <li><span>02</span> Estratégias de marketing</li>
+            <li><span>03</span> Desenvolvimento front-end</li>
+            <li><span>04</span> Web design & experiência digital</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-cta">
+        <p class="eyebrow">VAMOS CONVERSAR?</p>
+        <h2>Boas ideias ficam melhores quando saem do papel.</h2>
+        <a href="mailto:gabrielkostactl@gmail.com">Entrar em contato <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <footer>
+        <span>© <span id="current-year"></span> Gabriel Kosta</span>
+        <span class="footer-dot" aria-hidden="true"></span>
+        <a href="index.html">Todos os links</a>
+      </footer>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">Link copiado!</div>
+  </body>
+</html>
